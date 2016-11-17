@@ -47,7 +47,7 @@ theta = rand(n, num_classes);
 p = ones(n, num_classes);
 
 alpha_theta = 20;
-alpha_power = 0.005;
+alpha_power = 0.0001;
 momentum_theta = 0.0;
 momentum_power = 0.0;
 
